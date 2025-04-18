@@ -1,1 +1,1 @@
-*.klc   text    eol=crlf    working-tree-encoding=UTF-16LE
+*.klc   text    eol=crlf    working-tree-encoding=UTF-16LE-BOM

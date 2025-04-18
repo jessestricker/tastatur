@@ -1,0 +1,7 @@
+root = true
+
+[*.klc]
+indent_style = tab
+indent_size = 8
+end_of_line = crlf
+charset = utf-16le

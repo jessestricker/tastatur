@@ -1,0 +1,416 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="1500" height="500">
+    <style>
+        .key { fill: white; stroke: black; width: 100; height: 100; }
+        .modifier { fill: lightgray; }
+        text { font-size: 28px; font-weight: 500; }
+        .cap { text-anchor: middle; dominant-baseline: middle; }
+        .cap-mod { text-anchor: start; font-size: 24px; }
+    </style>
+
+    <!-- row: 1 -->
+    <svg>
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">^</text>
+        <text x="25" y="25" class="cap">°</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">1</text>
+        <text x="25" y="25" class="cap">!</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">2</text>
+        <text x="25" y="25" class="cap">"</text> <!-- shift -->
+        <text x="75" y="75" class="cap">²</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">3</text>
+        <text x="25" y="25" class="cap">§</text> <!-- shift -->
+        <text x="75" y="75" class="cap">³</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="400">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">4</text>
+        <text x="25" y="25" class="cap">$</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="500">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">5</text>
+        <text x="25" y="25" class="cap">%</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="600">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">6</text>
+        <text x="25" y="25" class="cap"><![CDATA[&]]></text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="700">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">7</text>
+        <text x="25" y="25" class="cap">/</text> <!-- shift -->
+        <text x="75" y="75" class="cap">{</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="800">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">8</text>
+        <text x="25" y="25" class="cap">(</text> <!-- shift -->
+        <text x="75" y="75" class="cap">[</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="900">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">9</text>
+        <text x="25" y="25" class="cap">)</text> <!-- shift -->
+        <text x="75" y="75" class="cap">]</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1000">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">0</text>
+        <text x="25" y="25" class="cap">=</text> <!-- shift -->
+        <text x="75" y="75" class="cap">}</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">ß</text>
+        <text x="25" y="25" class="cap">?</text> <!-- shift -->
+        <text x="75" y="75" class="cap">\</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap">ẞ</text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">´</text>
+        <text x="25" y="25" class="cap">`</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1300">
+        <rect width="200" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Backspace</text>
+    </svg>
+
+    <!-- row: 2 -->
+    <svg y="100">
+        <rect width="150" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Tab</text>
+    </svg>
+    <svg x="150" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">Q</text> <!-- shift -->
+        <text x="75" y="75" class="cap">@</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="250" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">W</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="350" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">E</text> <!-- shift -->
+        <text x="75" y="75" class="cap">€</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="450" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">R</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="550" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">T</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="650" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">Z</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="750" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">U</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="850" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">I</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="950" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">O</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1050" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">P</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1150" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">Ü</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1250" y="100">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">+</text>
+        <text x="25" y="25" class="cap">*</text> <!-- shift -->
+        <text x="75" y="75" class="cap">~</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1350" y="100">
+        <polygon points="0,0 150,0 150,200 25,200 25,100 0,100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Enter</text>
+    </svg>
+
+    <!-- row: 3 -->
+    <svg y="200">
+        <rect width="175" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Caps Lock</text>
+    </svg>
+    <svg x="175" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">A</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="275" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">S</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="375" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">D</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="475" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">F</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="575" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">G</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="675" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">H</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="775" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">J</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="875" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">K</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="975" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">L</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1075" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">Ö</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1175" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">Ä</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1275" y="200">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">#</text>
+        <text x="25" y="25" class="cap">'</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+
+    <!-- row: 4 -->
+    <svg y="300">
+        <rect width="125" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Shift</text>
+    </svg>
+    <svg x="125" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"><![CDATA[<]]></text>
+        <text x="25" y="25" class="cap"><![CDATA[>]]></text> <!-- shift -->
+        <text x="75" y="75" class="cap">|</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="225" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">Y</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="325" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">X</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="425" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">C</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="525" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">V</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="625" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">B</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="725" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">N</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="825" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap"></text>
+        <text x="25" y="25" class="cap">M</text> <!-- shift -->
+        <text x="75" y="75" class="cap">µ</text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="925" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">,</text>
+        <text x="25" y="25" class="cap">;</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1025" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">.</text>
+        <text x="25" y="25" class="cap">:</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1125" y="300">
+        <rect width="100" height="100" class="key" />
+        <text x="25" y="75" class="cap">-</text>
+        <text x="25" y="25" class="cap">_</text> <!-- shift -->
+        <text x="75" y="75" class="cap"></text> <!-- alt-gr -->
+        <text x="75" y="25" class="cap"></text> <!-- alt-gr + shift -->
+    </svg>
+    <svg x="1225" y="300">
+        <rect width="275" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Shift</text>
+    </svg>
+
+    <!-- row: 5 -->
+    <svg y="400">
+        <rect width="175" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Ctrl</text>
+    </svg>
+    <svg x="175" y="400">
+        <rect width="100" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Fn</text>
+    </svg>
+    <svg x="275" y="400">
+        <rect width="100" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Super</text>
+    </svg>
+    <svg x="375" y="400">
+        <rect width="100" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Alt</text>
+    </svg>
+    <svg x="475" y="400">
+        <rect width="600" height="100" class="key" />
+    </svg>
+    <svg x="1075" y="400">
+        <rect width="100" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Alt Gr</text>
+    </svg>
+    <svg x="1175" y="400">
+        <rect width="100" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Super</text>
+    </svg>
+    <svg x="1275" y="400">
+        <rect width="100" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Fn</text>
+    </svg>
+    <svg x="1375" y="400">
+        <rect width="125" height="100" class="key modifier" />
+        <text x="15" y="25" class="cap cap-mod">Ctrl</text>
+    </svg>
+
+</svg>

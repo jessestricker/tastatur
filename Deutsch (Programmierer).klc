@@ -23,7 +23,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 //SC	VK_		Cap	0	1	2	6	7
 //--	----		----	----	----	----	----	----
 
-02	1		0	1	0021	-1	-1	-1		// DIGIT ONE, EXCLAMATION MARK, <none>, <none>, <none>
+02	1		0	1	0021	-1	2019	-1		// DIGIT ONE, EXCLAMATION MARK, <none>, RIGHT SINGLE QUOTATION MARK, <none>
 03	2		0	2	0022	-1	00b2	00b2		// DIGIT TWO, QUOTATION MARK, <none>, SUPERSCRIPT TWO, SUPERSCRIPT TWO
 04	3		0	3	00a7	-1	00b3	00b3		// DIGIT THREE, SECTION SIGN, <none>, SUPERSCRIPT THREE, SUPERSCRIPT THREE
 05	4		0	4	0024	-1	-1	-1		// DIGIT FOUR, DOLLAR SIGN, <none>, <none>, <none>
